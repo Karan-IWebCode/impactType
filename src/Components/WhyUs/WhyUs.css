@@ -1,0 +1,57 @@
+.containerWhy{
+    padding: 7rem 0;
+    background-color: #fafafa;
+}
+.sectionWhy{
+    padding: 1.5rem 0.75rem;
+    margin:0 auto; 
+}
+.rowWhy{
+    display: flex;
+    justify-content: space-between;
+}
+.colWhy1{
+    flex: 0 0 auto;
+    width: 41.66667%;
+    padding: 0 12px;
+}
+.colWhyheading{
+    font-size: 30px;
+    margin: 0px 0px 48px;
+    font-family: "Montserrat", sans-serif;
+}
+.featureWhy{
+    display:flex;
+    flex-direction: column;
+}
+.featureBind{
+    display: flex;
+    flex-direction: row;
+}
+.featureIcon{
+    margin-right: 20px;
+}
+.featureData h3{
+    margin-top:0px;
+    margin-bottom:8px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+.featureData p{
+    font-size:14px;
+    margin-top:0px;
+    margin-bottom:16px;
+    text-align:left;
+
+}
+.hourWhy{
+    height:50px;
+    width:50px;
+
+}
+.aboutusWhy{
+    max-width:80%;
+    height:auto;
+    margin-bottom: 1rem;
+}
