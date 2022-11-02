@@ -1,0 +1,59 @@
+.mainHeader{
+  display:flex;
+  justify-content: space-between;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin: 0px 20px;
+}
+.mainLogo{
+  display: flex;
+  font-size: 24px;
+  font-weight:700;
+}
+.mainLogo a{
+  color: #fff;
+  text-decoration: none;
+}
+.nav .navLinks{
+  font-size:14px;
+  
+  
+}
+.nav .navLinks a{
+  text-decoration: none;
+  font-size: 14px;
+}
+.navItems{
+  padding: 10px 15px;
+  color:rgba(255, 255, 255, 0.7);
+}
+
+.navItems:hover{
+  color:#fff;
+
+}
+.navItems:active{
+  color:#fff
+}
+
+.dropdownContent{
+  display:block;
+  min-width:160px;
+  text-align: left;
+  position: absolute;
+}
+.dropdownContent a{
+  text-decoration: none;
+  position: absolute;
+  color:black;
+  z-index: 999;
+  position: absolute;
+}
+
+.dropdownContent:hover{
+  display: block;
+}
+
+.dropdownContent:active{
+  display:block;
+}
