@@ -30,26 +30,28 @@
 
 .navItems:hover{
   color:#fff;
-
 }
 .navItems:active{
   color:#fff
 }
 
 .dropdownContent{
-  display:block;
-  min-width:160px;
+  padding: 20px 0px;
+  height:100px;
+  width:180px;
   text-align: left;
   position: absolute;
 }
-.dropdownContent a{
+.dropdownContent button{
   text-decoration: none;
-  position: absolute;
   color:black;
+  background-color: white;
   z-index: 999;
-  position: absolute;
+  border:none;
+  padding: 5px 20px;
+  display: none;
+  
 }
-
 .dropdownContent:hover{
   display: block;
 }

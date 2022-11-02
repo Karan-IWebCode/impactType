@@ -12,9 +12,9 @@ const Header = () => {
 					<a href="#" className="navItems">Home</a>
 					<a href="#" className="navItems">Dropdown
 						<div className="dropdownContent">
-							<a href="#">Menu 1</a>
-							<a href="#">Menu 2</a>
-							<a href="#">Menu 3</a>
+							<button >Menu 1</button>
+							<button >Menu 2</button>
+							<button >Menu 3</button>
 							
 						</div>
 					</a>

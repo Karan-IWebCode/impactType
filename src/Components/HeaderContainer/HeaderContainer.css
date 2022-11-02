@@ -1,0 +1,20 @@
+.sectionTop{
+    padding-top:10rem;
+    position: relative;
+}
+.container{
+    display: flex;
+    width:100%;
+}
+.contentContainer{
+    display: block;
+    font:40px;
+}
+.row{
+    display: flex;
+    color:white
+}
+
+.img-fluid{
+    height:auto;
+}
