@@ -2,6 +2,7 @@ import React from "react";
 import personGroup1  from '../../Assets/personGroup1.png'
 import personGroup2 from '../../Assets/personGroup2.png'
 import './HeaderContainer.css'
+import Button from '../CommonButton/Button'
 
 const HeaderContainer = () => {
 	return(
@@ -18,7 +19,7 @@ const HeaderContainer = () => {
 								</p>
 							</div>
 							<p>
-								<a href="contactpage" className="contactPageBtn">Get In Touch</a>    
+								<Button />
 							</p>
 						</div>
 				<img src={personGroup2} className='img-fluid'/>

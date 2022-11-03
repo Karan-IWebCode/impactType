@@ -11,11 +11,16 @@ const Header = () => {
 				<div className="nav">
 					<ul className="navLinks">
 						<a href="#" className="navItems">Home</a>
-						<a href="#" className="navItems">Dropdown
+						<a href="#" className="navItems active">Dropdown
 							<div className="dropdownContent">
-								<button >Menu 1</button>
-								<button >Menu 2</button>
-								<button >Menu 3</button>
+								<ul>
+									<li><a href="#">Menu One</a></li>
+									<li><a href="#">Menu Two</a></li>
+									<li><a href="#">Menu Three</a></li>
+
+
+								</ul>
+								
 								
 							</div>
 						</a>

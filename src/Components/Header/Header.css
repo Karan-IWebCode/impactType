@@ -19,6 +19,9 @@
   color: #fff;
   text-decoration: none;
 }
+.nav{
+  display:flex
+}
 .nav .navLinks{
   font-size:14px;
   
@@ -42,23 +45,33 @@
 
 .dropdownContent{
   padding: 20px 0px;
-  height:100px;
+  height:105px;
   width:180px;
   text-align: left;
   position: absolute;
+  opacity: 0;
 }
-.dropdownContent button{
-  text-decoration: none;
-  color:black;
-  background-color: white;
-  z-index: 999;
-  border:none;
-  padding: 5px 20px;
+.dropdownContent ul{
+  list-style-type: none;
+  padding-left:0px;
+}
+.dropdownContent ul li a{
   display: none;
   
-}
-.dropdownContent:hover{
+  z-index: 999;
+  color:black;
+  text-decoration: none;
   display: block;
+  text-align: left;
+  padding: 5px 20px;  
+}
+.dropdownContent {
+  background-color: white;
+  z-index: 99;
+}
+.active:hover .dropdownContent{
+  display: block;
+  opacity: 1;
 }
 
 .dropdownContent:active{

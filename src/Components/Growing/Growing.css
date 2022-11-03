@@ -1,0 +1,65 @@
+.section{
+    padding: 7rem 0;
+}
+.container{
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.growingContent{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+}   
+.growingContentCol1{
+    width:35%;
+}
+.growingContentCol1 h2{
+    margin-top: 0px;
+    text-align: left;
+}
+.growingContentCol1 p{
+    font-size:14px;
+    margin-top:0px;
+    margin-bottom:16px;
+    text-align:left;
+
+}
+
+.growingContentCol2{
+    width:60%;
+}
+.grows{
+    width:70%;
+    height:auto
+}
+
+
+
+
+.grow2col2{
+    padding:0px 20px;
+}
+.growPackage{
+    display: flex;
+    text-align: left;
+}
+.growthIcon{
+    height: 50px;
+    width:50px;
+    margin-right:20px;
+}
+.growingContent2{
+    display:flex;
+}
+.growPackage h3{
+    margin-top: 0px;
+    text-align: left;
+}
+.growPackage p{
+    
+}

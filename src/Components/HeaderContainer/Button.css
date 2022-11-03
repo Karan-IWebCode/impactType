@@ -1,0 +1,15 @@
+.contactPageBtn{
+    background-color: #f85a40;
+    color:#fff;
+    border: 2px solid #f85a40;
+    text-decoration: none;
+    padding: 12px 30px;
+    width:94px;
+    height:24px;
+    border-radius: 4px;
+}
+.contactPageBtn:hover{
+    color:#fff;
+    background-color: #008374;
+    border: 2px solid #fff;
+}

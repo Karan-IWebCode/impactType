@@ -3,6 +3,7 @@
     background-color: #fafafa;
 }
 .sectionWhy{
+    width:75%;
     padding: 1.5rem 0.75rem;
     margin:0 auto; 
 }
@@ -12,7 +13,7 @@
 }
 .colWhy1{
     flex: 0 0 auto;
-    width: 41.66667%;
+    width: 38%;
     padding: 0 12px;
 }
 .colWhyheading{

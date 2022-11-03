@@ -1,0 +1,36 @@
+.container{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.screenRow{
+    display: flex;
+    justify-content: space-between;
+}
+.screenVideo{
+    width:55%;
+}
+.videoImg{
+    width:100%
+}
+.screenContent {
+    width:35%;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.screenContent h2{
+    margin-top: 0 ;
+}
+
+.screenContent ul{
+    padding-left: 0px;
+}
+.screenContent ul li{
+    list-style-type: none;
+    top: -5px;
+}
+.screenContent ul li::before{
+    content: "\2713";
+   color: #f85a40;
+   font-family: 'icomoon';
+}
