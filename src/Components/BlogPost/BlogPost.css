@@ -1,0 +1,37 @@
+.section{
+    padding: 7rem 0;
+}
+.container1{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+}
+.blogHead{
+    width:100%;
+    margin-right:0.75rem;
+    margin-left:0.75rem;
+    display:flex;
+    flex-wrap:wrap;
+   
+}
+.blogPair{    
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    
+    flex-direction:column;
+    justify-content: center;
+}
+.blogPair h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+.blogPair p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}

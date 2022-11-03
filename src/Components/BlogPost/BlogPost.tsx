@@ -1,29 +1,22 @@
+import BlogCardCom from '../BlogCardCom/BlogCardCom';
+
 import './BlogPost.css'
 const BlogPost = () => {
 	return(
-		<>
+		
 			<div className="section">
-				<div className="container"></div>
+				<div className="container1">
 					<div className="blogHead">
 
 						<div className="blogPair">
-							<h2 className="blogHeading"></h2>
-							<p className="blogDescription"></p>
-						</div>
-						
-						<div className="BlogCard">
-							<div className="col">
-								<div className="colHead">
-								<a href="single.html">
-									
-								</a>
-
-								</div>
-							</div>
+							<h2 >Blog Posts</h2>
+							<p >Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit consequuntur.</p>
 						</div>
 					</div>
-			</div>
-		</>
+          <BlogCardCom />
+        </div>  
+      </div>
+		
 	);
 }
 export default BlogPost;
