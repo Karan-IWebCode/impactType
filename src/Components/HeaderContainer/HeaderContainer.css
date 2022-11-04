@@ -1,8 +1,8 @@
 .sectionTop{
-    padding-top:10rem;
+    padding-top:6rem;
     position: relative;
     background-color: #008374;
-    
+    padding-bottom:10rem;
 }
 .container{
     display: flex;

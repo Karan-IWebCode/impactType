@@ -8,6 +8,8 @@ import WhyUS from './Components/WhyUs/WhyUs';
 import Growing from './Components/Growing/Growing';
 import VideoScreen from './Components/VideoScreen/VideoScreen';
 import BlogPost from './Components/BlogPost/BlogPost';
+import Footer from './Components/Footer/Footer';
+import Slider from './Components/Slider/Slider';
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
       <WhyUS />
       <Growing />
       <VideoScreen />
+      <Slider />
       <BlogPost />
+      <Footer />
     </div>
   );
 }

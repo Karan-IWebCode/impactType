@@ -1,5 +1,6 @@
 import './VideoScreen.css'
 import img from'../../Assets/VideoScreen/hero-min.jpg'
+import Button from '../HeaderContainer/Button'
 
 const VideoScreen = () => {
 	return(
@@ -7,7 +8,7 @@ const VideoScreen = () => {
 			<div className="container">
 				<div className="screenRow">
 					<div className="screenVideo">
-					<a href="https://www.youtube.com/watch?v=KI2lsdXJQ40" >
+					<a href="https://www.youtube.com/watch?v=KI2lsdXJQ40" target={"_parent"}>
 	
 						<img src={img} className="videoImg"/>
 					</a>
@@ -22,6 +23,7 @@ const VideoScreen = () => {
 							<li>Aspernatur eaque quis</li>
 							<li>Dolorem magnam quisquam? Facere</li>
 						</ul>
+						<Button />
 					</div>
 				</div>
 			</div>

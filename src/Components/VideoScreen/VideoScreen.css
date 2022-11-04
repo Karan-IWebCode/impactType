@@ -11,7 +11,7 @@
     width:55%;
 }
 .videoImg{
-    width:100%
+    width:80%
 }
 .screenContent {
     width:35%;
@@ -24,6 +24,7 @@
 
 .screenContent ul{
     padding-left: 0px;
+    margin-bottom: 1.5rem;
 }
 .screenContent ul li{
     list-style-type: none;
