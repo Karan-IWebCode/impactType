@@ -3,10 +3,11 @@
     background-color: #fff
 }
 .containerGrow{
-    width: 100%;
+    width: 76%;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
-    margin-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     box-sizing: border-box;
 }
 .growingContent{

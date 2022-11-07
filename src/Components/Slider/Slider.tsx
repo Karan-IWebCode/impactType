@@ -20,7 +20,8 @@ const Slider = () => {
 
   useEffect(() => {
     let slider = setInterval(()=>{
-      setIndex(index + 1)
+      if(index == people.length-1)setIndex(0)
+	  else setIndex(index+1)
     },5000); 
 	return () => {
 		clearInterval(slider)
@@ -30,8 +31,19 @@ const Slider = () => {
 	return (
 		<>
 			<div className="section">
+				<button className='prev' onClick={() => {
+					if(index == 0)
+						setIndex(people.length-1)
+					else setIndex(index-1)
+				}}>
+							left
+				</button>
 				<div className="sectionSlider">
 					<div className="sectionWrap">
+					<div className='carousel-item'>
+							
+									
+								
 						{people.map((item,indexPeople) => {
 							const {id, iconName, name, profile, description} = item;
 							let position = "nextSlide";
@@ -56,13 +68,17 @@ const Slider = () => {
 						})}
 
 					</div>
-					<button className='prev' onClick={() => setIndex(index - 1)}>
-							left
-						</button>
-						<button className='next' onClick={() => {setIndex(index + 1)}}>
-							right
-						</button>
+					
+						
 				</div>
+				</div>
+				<button className='next' onClick={() => {
+					if(index === people.length-1)
+						setIndex(0)
+					else setIndex(index+1)
+				}}>
+							right
+				</button>
 			</div>
 		</>
 	);
