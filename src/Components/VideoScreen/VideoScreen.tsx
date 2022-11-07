@@ -17,11 +17,11 @@ const VideoScreen = () => {
 						<h2>Get Started with Impact</h2>
 						<p>Labore id odit sit optio, voluptas sequi nobis aliquid dignissimos iure recusandae.</p>
 						<ul>
-							<li>Deserunt harum incidunt </li>
-							<li>Ex nesciunt est temporibus ipsum</li>
-							<li>Vel rem eveniet facere et velit sunt</li>
-							<li>Aspernatur eaque quis</li>
-							<li>Dolorem magnam quisquam? Facere</li>
+							<li><span>Deserunt harum incidunt</span></li>
+              <li><span>Ex nesciunt est temporibus ipsum</span></li>
+              <li><span>Vel rem eveniet facere et velit sunt</span></li>
+              <li><span>Aspernatur eaque quis</span></li>
+              <li><span>Dolorem magnam quisquam? Facere</span></li>
 						</ul>
 						<Button />
 					</div>

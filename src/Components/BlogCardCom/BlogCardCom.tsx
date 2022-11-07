@@ -17,7 +17,7 @@ const BlogCardCom = () => {
 									<img src={iter.iconName} className="imgSet" />
 									</a>
 							</div><div className="cardBody">
-									<div className=''>
+									<div className='meta'>
 										<span>May 27, 2021</span>
 										<span>•</span>
 										<span>12 Comments</span>

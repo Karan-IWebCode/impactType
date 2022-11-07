@@ -35,3 +35,6 @@
    color: #f85a40;
    font-family: 'icomoon';
 }
+.screenContent ul li span{
+    padding-left: 10px;
+}

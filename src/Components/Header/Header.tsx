@@ -1,4 +1,4 @@
-import React from "react";
+
 import './Header.css'
 
 const Header = () => {
@@ -10,8 +10,13 @@ const Header = () => {
 				</div>
 				<div className="nav">
 					<ul className="navLinks">
-						<a href="#" className="navItems">Home</a>
-						<a href="#" className="navItems active">Dropdown
+						<li>
+							<a href="#" className="navItems">Home</a>
+						</li>
+						<li>
+							<a href="#" className="navItems active">Dropdown</a>
+						</li>
+						
 							<div className="dropdownContent">
 								<ul>
 									<li><a href="#">Menu One</a></li>
@@ -23,12 +28,20 @@ const Header = () => {
 								
 								
 							</div>
-						</a>
 						
-						<a href="#" className="navItems">Services</a>
-						<a href="#" className="navItems">Blog</a>
-						<a href="#" className="navItems">About</a>
-						<a href="#" className="navItems">Contact Us</a>
+						
+						<li>
+							<a href="#" className="navItems">Services</a>
+						</li>
+						<li>
+							<a href="#" className="navItems">Blog</a>
+						</li>
+						<li>
+							<a href="#" className="navItems">About</a>
+						</li>
+						<li>
+							<a href="#" className="navItems">Contact Us</a>
+						</li>
 						
 						
 					</ul>

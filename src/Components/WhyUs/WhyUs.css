@@ -16,6 +16,10 @@
     width: 38%;
     padding: 0 12px;
 }
+.colWhy2{
+    justify-content: flex-end;
+    display: flex;
+}
 .colWhyheading{
     font-size: 30px;
     margin: 0px 0px 48px;

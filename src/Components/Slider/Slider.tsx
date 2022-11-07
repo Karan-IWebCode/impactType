@@ -7,17 +7,26 @@ import data from './Utlity'
 const Slider = () => {
 	const [people] = useState(data);
 	const [index, setIndex] = useState(0);
-	const [next, setNext] = useState("")
 
 	useEffect(()=>{
-		const lastIndex = people.length - 1;
+		const lastIndex = people.length -1;
 		if(index < 0){
 			setIndex(lastIndex);
 		}
-		if(index > 0){
+		if(index > lastIndex){
 			setIndex(0);
 		}
 	},[index, people]);
+
+  useEffect(() => {
+    let slider = setInterval(()=>{
+      setIndex(index + 1)
+    },5000); 
+	return () => {
+		clearInterval(slider)
+	}
+  },[index]);
+
 	return (
 		<>
 			<div className="section">
@@ -50,9 +59,7 @@ const Slider = () => {
 					<button className='prev' onClick={() => setIndex(index - 1)}>
 							left
 						</button>
-						<button className='next' onClick={() => {setNext(next)
-						
-						}}>
+						<button className='next' onClick={() => {setIndex(index + 1)}}>
 							right
 						</button>
 				</div>
