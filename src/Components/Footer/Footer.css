@@ -13,7 +13,7 @@
     margin-right: auto;
     margin-left: auto;
 }
-.row{
+.row1{
     display: flex;
     margin-top: 0px;
     
@@ -101,3 +101,33 @@
     color: #fff
     
 }
+@media only screen and (max-width: 1000px) {
+    .containerFooter{
+        width:88%;
+    }
+    .row1{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-row: auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+    .col20{
+        margin-left: 0;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 760px) {
+    .containerFooter{
+        width:88%;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+    }
+    .col20{
+        margin-left: 0;
+    }
+  }
+  

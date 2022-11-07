@@ -1,12 +1,13 @@
-.section{
+.sectionGrow{
     padding: 7rem 0;
+    background-color: #fff
 }
-.container{
+.containerGrow{
     width: 100%;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
     margin-right: 2rem;
-    margin-left: 2rem;
+    box-sizing: border-box;
 }
 .growingContent{
     display:flex;
@@ -40,9 +41,6 @@
     height:auto
 }
 
-
-
-
 .grow2col2{
     padding:0px 20px;
 }
@@ -65,3 +63,65 @@
 .growPackage p{
     
 }
+
+@media only screen and (max-width: 1000px) {
+    .sectionGrow{
+
+    }
+    .containerGrow{
+        width:100%;
+    }
+    .growingContent{
+        flex-direction: column;
+    }
+    .growingContentCol1{
+        width:100%
+    }
+    .colWhyHeading{
+        text-align:left;
+        font-size: 30px;
+        margin-bottom: 24px;
+    }
+    .contactPageBtn{
+        margin-bottom: 16px;
+    }
+    .growingContentCol2{
+        width: 100%;
+    }
+    .grows{
+        width: 100%;
+    }
+  }
+
+  
+@media only screen and (max-width: 760px) {
+    .sectionGrow{
+        padding: 6rem 0;
+    }
+    .containerGorw{
+        margin: 0 37.5px;
+        padding: 0 24px;
+    }
+    .colWhyHeading{
+        font-size: calc(1.325rem + 0.9vw);
+    }
+    .grows{
+        width:80%;
+        float:left;
+    }
+    .growPackage h3{
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom:8px;
+    }
+    .growPackage p{
+        font-size:14px;
+        color: #6c757d;
+        font-family: "Open Sans", sans-serif;
+        margin-bottom:0px;
+        margin-bottom: 16px;
+    }
+  }
+  
+  

@@ -4,7 +4,7 @@ import './BlogPost.css'
 const BlogPost = () => {
 	return(
 		
-			<div className="section">
+			<div className="sectionBlog">
 				<div className="container1">
 					<div className="blogHead">
 

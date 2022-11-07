@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <div className="sectionFooter">
         <div className="containerFooter">
-          <div className="row">
+          <div className="row1">
             <div className="col1 cols" >
             <div className="widget">
 						  <h3>About Impact<span style={{color: "#f85a40"}}>.</span> </h3>

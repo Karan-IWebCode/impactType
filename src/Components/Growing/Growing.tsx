@@ -4,10 +4,10 @@ import Button from '../CommonButton/Button';
 
 import arr1 from './utlity'
 
-const Growing = () => {
+const Growing = ({ }) => {
   return(
-    <div className="section">
-      <div className="container">
+    <div className="sectionGrow"  >
+      <div className="containerGrow">
 
         <div className="growingContent">
           <div className="growingContentCol1">
@@ -21,7 +21,7 @@ const Growing = () => {
         </div>
           
       </div>
-      <div className="container">
+      <div className="containerGrow">
         <div className="growingContent2">
         {
           arr1.map((iter)=>{

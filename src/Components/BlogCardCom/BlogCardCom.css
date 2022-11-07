@@ -52,3 +52,28 @@
     text-decoration: none;
     color: #f85a40;
 }
+
+@media only screen and (max-width: 1000px) {
+   
+ }
+
+@media only screen and (max-width: 760px) {
+    .col{
+        padding-left:10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cardRow{
+        padding: 10px;
+        width:100%;
+        margin-bottom:16px;
+    }
+    .meta{
+        margin-bottom: 10px;
+    }
+    .cardBody h2{
+        margin-bottom: 10px;
+    }
+}
+  
+  

@@ -1,4 +1,8 @@
-.container{
+.sectionVideo{
+    padding: 7rem 0;
+    background-color: #fff
+}
+.containerVideo{
     width:70%;
     margin-left:auto;
     margin-right:auto;
@@ -38,3 +42,49 @@
 .screenContent ul li span{
     padding-left: 10px;
 }
+
+@media only screen and (max-width: 1000px) {
+    .sectionVideo{
+        padding: 3rem 0;
+    }
+    .container{
+    }
+    .screenRow{
+        flex-direction: column;
+    }
+    .screenContent{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .screenContent ul{
+        margin-bottom: 1rem;
+    }
+    .screenVideo{
+        margin-top: 2.25rem;
+        width: 100%;
+        order:2;
+    }
+    .videoImg{
+        width:100%
+    }
+  }
+
+  @media only screen and (max-width: 760px) {
+    .sectionVideo{
+        padding: 6rem 0;
+    }
+   .containerVideo{
+    margin-left: 37.5px;
+   }
+   .screenContent h2{
+    margin-bottom: 24xp ;
+   }
+   .screenContent p{
+    margin-bottom: 1rem;
+   }
+   .screenContent ul{
+    margin-bottom: 1.5rem;
+   }
+  }
+  
+  

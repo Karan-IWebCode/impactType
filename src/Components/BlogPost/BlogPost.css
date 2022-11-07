@@ -1,5 +1,6 @@
-.section{
+.sectionBlog{
     padding: 7rem 0;
+    background-color: #fff;
 }
 .container1{
     width: 70%;
@@ -34,4 +35,13 @@
 .blogPair p{
     margin-top: 0;
     margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container1{
+        width:88%;
+    }
+  .blogHead{
+    margin-bottom: 3rem;
+  }
 }

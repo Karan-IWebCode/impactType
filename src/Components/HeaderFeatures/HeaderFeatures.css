@@ -55,3 +55,38 @@
     font-size: 14px;
     text-align: left;
 }
+
+@media only screen and (max-width: 1000px) {
+    .containerFeatures{
+        display: flex;
+        width:88%;
+        margin-left: auto;
+        margin-right:auto;
+        /* padding: 0rem 0.75rem; */
+        /* margin: 200px 32px 0px 32px; */
+        /* TO AVOID WHITE SCREEN  */
+        /* background-color: #008374; */
+        
+    }
+     
+    .colFeatures{
+        width:100%;
+        padding: 0px 12px;
+        color:#fff;
+    }
+    .colPack{
+        display: flex;
+        flex-direction:column;
+    }
+    .rowFeatures{
+        display: flex;
+        flex-wrap: nowrap ;
+        flex-direction: column;
+    }
+    .iconFeatures{
+        text-align: initial;
+        margin-right:30px;
+    
+    } 
+
+  }

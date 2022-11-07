@@ -4,8 +4,8 @@ import Button from '../HeaderContainer/Button'
 
 const VideoScreen = () => {
 	return(
-		<>
-			<div className="container">
+		<div className='sectionVideo'>
+			<div className="containerVideo">
 				<div className="screenRow">
 					<div className="screenVideo">
 					<a href="https://www.youtube.com/watch?v=KI2lsdXJQ40" target={"_parent"}>
@@ -27,7 +27,7 @@ const VideoScreen = () => {
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
 

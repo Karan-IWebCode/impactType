@@ -7,7 +7,7 @@ import Button from '../CommonButton/Button'
 const HeaderContainer = () => {
 	return(
 		<div className="sectionTop">
-			<div className="container">
+			<div className="headerContainer">
 			
 				<div className="row">
 				<img src={personGroup1} className='img-fluid'/>
