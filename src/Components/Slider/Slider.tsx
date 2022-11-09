@@ -1,5 +1,6 @@
 import React , {useState, useEffect} from 'react'
 import { transform } from 'typescript';
+import Button from '../CommonButton/Button';
 import './Slider.css'
 import people from './Utlity';
 import data from './Utlity'
@@ -35,6 +36,7 @@ const Slider = () => {
 					if(index == 0)
 						setIndex(people.length-1)
 					else setIndex(index-1)
+					console.log("button clicked")
 				}}>
 							left
 				</button>
@@ -54,7 +56,7 @@ const Slider = () => {
 								position = "lastSlide"
 							return (
 								<div className='carousel-item'>
-									<article className={position} key={id}>
+									<article className={position} key={index}>
 										<img className="sliderImage" src={iconName} />
 										<h3 className="">{name}</h3>
 										<span className="">{profile}</span>

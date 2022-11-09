@@ -10,6 +10,7 @@ import VideoScreen from './Components/VideoScreen/VideoScreen';
 import BlogPost from './Components/BlogPost/BlogPost';
 import Footer from './Components/Footer/Footer';
 import Slider from './Components/Slider/Slider';
+import Slider2 from './Components/Slider2/Slider2'
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       <WhyUS />
       <Growing />
       <VideoScreen />
-      <Slider />
+      
+      <Slider2 />
       <BlogPost />
       <Footer />
     </div>

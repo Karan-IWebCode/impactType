@@ -11,6 +11,7 @@
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
 }
 .mainLogo{
   font-size: 24px;
@@ -33,7 +34,48 @@
   padding: 10px 15px;
   color:rgba(255, 255, 255, 0.7);
 }
-
+.dis{
+  list-style-type: none;
+  align-items: center;
+  text-decoration: none;
+  display: none;
+  right: 20vw;
+  position: absolute;
+}
+.dis:hover .divDisplay{
+  display: block;
+  transition-timing-function: ease-in;
+  transition: 1s;
+  top:-30px;
+  width: 40vw;
+  right:-180px;
+}
+.divDisplay{
+  display: none;
+  position:absolute;
+  height: 200vh;
+  z-index:200;
+  background-color: white;
+  color:black;
+  top:-30px;
+  width: 0vw;
+  right:-130px;
+}
+.divDisplay ul{
+  list-style-type: none;
+  margin: 10%;
+    padding: 5%;
+  
+}
+.divDisplay ul li{
+  color:black;
+  margin: 0 auto;
+  text-align: left;
+  padding: 10px 0px;
+}
+.divDisplay ul li a:hover {
+  color:#fd7e14
+}
 .navItems:hover{
   color:#fff;
 }
@@ -42,39 +84,72 @@
 }
 
 .dropdownContent{
+  display: none;
   padding: 20px 0px;
   height:105px;
-  width:180px;
+  width:170px;
   text-align: left;
   position: absolute;
-  opacity: 0;
+  background-color: white;
+  z-index: 99;
+  top: 4rem;
+  right: 35rem;
 }
 .dropdownContent ul{
   list-style-type: none;
   padding-left:0px;
 }
 .dropdownContent ul li a{
-  display: none;
-  
+  display: block;
   z-index: 999;
   color:black;
   text-decoration: none;
-  display: block;
   text-align: left;
   padding: 5px 20px;  
 }
-.dropdownContent {
+
+.dropdownContent2{
+  display:none;
+  padding: 20px 0px;
+  height:105px;
+  width:150px;
+  text-align: left;
+  position: absolute;
+  opacity: 1;
   background-color: white;
   z-index: 99;
+  top: 4rem;
+  left: 10.5rem;
 }
-.active:hover .dropdownContent{
+.dropdownContent2 ul{
+  list-style-type: none;
+  padding-left:0px;
+}
+.dropdownContent2 ul li a{
   display: block;
-  opacity: 1;
+  z-index: 999;
+  color:black;
+  text-decoration: none;
+  text-align: left;
+  padding: 5px 20px;  
 }
 
-.dropdownContent:active{
-  display:block;
+
+.dropDown:hover .dropdownContent{
+  display: block;
 }
+
+.dropDown2:hover .dropdownContent2{
+  display: block;
+}
+
+.dropdownContent ul:hover li{
+  color:#fd7e14;
+}
+.dropdownContent ul li a:hover{
+  color:#fd7e14;
+} 
+
 
 @media only screen and (max-width: 1000px) {
   .maincontainer{
@@ -92,8 +167,30 @@
   .mainHeader .nav{
     display: none;
   }
+  .dis{
+    display: block;
+    }
+  .dis a{
+    text-decoration: none;
+    color: white;
+  }
+  .divDisplay a{
+    color:black
+  }
 }
 
 @media only screen and (max-width: 760px) {
-  
+  .dis{
+  display: block;
+  }
+  .dis a{
+  text-decoration: none;
+  color: white;
+  }
+  .divDisplay a{
+    color:black
+  }
+  .dis a:active {
+
+  }
 }
